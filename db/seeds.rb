@@ -1,5 +1,5 @@
-require 'faker'
-
-5.times do
-  Message.create(greeting: Faker::Lorem.sentence(word_count: 3))
-end
+Message.create(greeting: 'Ni hao')
+Message.create(greeting: 'Hello')
+Message.create(greeting: 'Bonjour')
+Message.create(greeting: 'Namaste')
+Message.create(greeting: 'Konnichiwa')
